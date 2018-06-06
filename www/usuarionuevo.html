@@ -1,0 +1,36 @@
+<div class="page" data-page="nuevapartida">
+          //Aquí podemos agregar la barra superior
+          <div class="navbar">
+               <div class="navbar-inner">
+                 <div class="left"><a href="index.html"><img src="img/home.jpg" width="40" height="40" alt="TanteaPocha"/></a></div>
+                   <div class="center">Nuevo Usuario</div>
+			     <div class="right"></div>
+              </div>
+          </div>
+          <div class="page-content">
+	<form action="gestionarusuarios.html" input="range_control_value.value = range_control.valueAsNumber">
+<p>
+Nombre: <input type="text" name="name_control" autofocus required />
+<br />
+Correo Electrónico: <input type="email" name="email_control" required />
+<br />
+Fecha Nacimiento: <input type="date" name="date_control" />
+<br />
+Teléfono: <input type="tel" name="tel_control" />
+<br />
+Color Favorito: <input type="color" name="color_control" />
+<br />
+<!--<input type="submit" value="Registrar"  onclick="mi_alerta"/>-->
+</p>
+</form>
+<a href="usuarioalta.html"><img src="img/registro.jpg" width="140" height="100" alt="Registrar" onclick=mi_alerta()></a>
+</div>
+	</div>
+</div>
+<SCRIPT LANGUAGE="JavaScript">
+function mi_alerta () {
+alert ("Usuario registrado correctamente");
+}
+</SCRIPT>
+
+

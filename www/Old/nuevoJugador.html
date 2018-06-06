@@ -1,0 +1,177 @@
+<!-- Top Navbar-->
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left">
+            <a href="#" class="back link">
+                <i class="icon icon-back"></i>
+                <span>Volver</span>
+            </a>
+        </div>
+        <div class="center sliding">Dar de alta un Jugador</div>
+        <div class="right">
+            <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
+        </div>
+    </div>
+</div>
+<div class="pages">
+    <div data-page="about" class="page" style="background-color:#00FF00;">
+        <div class="page-content">
+            <div class="content-block">
+<div class = "content-block-title" style="background-color:#00FF00;">Nuevo Jugador</div>
+                     <div class = "list-block" >
+                        <ul>
+                           <li>
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-name"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Nombre</div>
+                                    <div class = "item-input">
+                                       <input type = "text" placeholder = "Introduce nombre">
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <li>
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-email"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">E-mail</div>
+                                    <div class = "item-input">
+                                       <input type = "email" placeholder = "Introduce el mail">
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <li>
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-password"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Password</div>
+                                    <div class = "item-input">
+                                       <input type = "password" placeholder = "Introduce la contraseña">
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <li>
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-tel"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Teléfono</div>
+                                    <div class = "item-input">
+                                       <input type = "tel" placeholder = "Introduce el teléfono">
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <li>
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-gender"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Sexo</div>
+                                    <div class = "item-input">
+                                       <select>
+                                          <option>Masculino</option>
+                                          <option>Fememino</option>
+                                       </select>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <li>
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-calendar"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Fecha Nacimiento</div>
+                                    <div class = "item-input">
+                                       <input type = "date" placeholder = "Fecha Nacimiento" value = "2014-04-30">
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <!--<li>
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-calendar"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Date time</div>
+                                    <div class = "item-input">
+                                       <input type = "datetime-local">
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <li>
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-toggle"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Switch</div>
+                                    <div class = "item-input">
+                                       <label class = "label-switch">
+                                          <input type = "checkbox">
+                                          <div class = "checkbox"></div>
+                                       </label>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <li class = "align-top">
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-comment"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Textarea</div>
+                                    <div class = "item-input">
+                                       <textarea></textarea>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+                           
+                           <li class = "align-top">
+                              <div class = "item-content">
+                                 <div class = "item-media"><i class = "icon icon-form-comment"></i></div>
+                                 <div class = "item-inner">
+                                    <div class = "item-title label">Resizable</div>
+                                    <div class = "item-input">
+                                       <textarea class = "resizable"></textarea>
+                                    </div>
+                                 </div>
+                              </div>
+                           </li>
+						   -->
+                        </ul>
+                     </div>
+					 <a class="boton_partida" href="altaJugador.html">Alta de jugador</a>
+                  </div>
+      
+      <script type = "text/javascript" 
+         src = "https://cdnjs.cloudflare.com/ajax/libs/framework7/1.4.2/js/framework7.min.js"></script>
+         
+      <script>
+         // here initialize the app
+         var myApp = new Framework7();
+
+         // If your using custom DOM library, then save it to $$ variable
+         var $$ = Dom7;
+
+         // Add the view
+         var mainView = myApp.addView('.view-main', {
+         
+            // enable the dynamic navbar for this view
+            dynamicNavbar: true
+         });
+      </script>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+	 

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="format-detection" content="telephone=no" />
+<meta name="msapplication-tap-highlight" content="no" />
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<link rel="stylesheet" href="css/framework7.css">
+<link rel="stylesheet" href="css/framework7.material.min.css">
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<title>TanteaPocha - El genuino tanteador de Pocha<</title>
+</head>
+<body>
+<!--panel-overlay forma parte del menú, es la parte oscura que queda debajo-->
+	<div class="panel-overlay"></div>
+<!--Este es el menú-->
+	<div class="panel panel-left">
+	<p>Este es mi menú lateral</p>
+	</div>
+<div class="views">
+      <!--Creamos el View principal-->
+      <div class="view view-main">
+        <div class="pages navbar-fixed">
+          <!--Añadimos la primera página-->
+          <div data-page="index" class="page">
+           <!--Esto es barra superior, menu, logo, etc-->
+            <div class="navbar">
+              <div class="navbar-inner">
+                <div class="center">Menú principal</div>
+              </div>
+            </div>
+            <!--El contenido de la página-->
+            <div class="page-content" align="center">
+              <br><img src="img/mesa.jpg" width="160" height="120" alt="TanteaPocha"/>    <br><br>
+						<a href="nuevaPartida.html" class="boton">Nueva Partida</a>
+				<br><br><a href="partidacontinuar.html" class="boton">Continuar Partida</a>
+				<br><br><a href="gestionarusuarios.html" class="boton">Gestionar Usuarios</a>
+				<br><p align="center">&nbsp;</p>
+			        </div>
+</div>
+        </div>
+      </div>
+</div>
+<script type="text/javascript" src="cordova.js"></script>
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/my-app.js"></script>
+<script>
+app.initialize();
+</script>
+</body>
+</html>

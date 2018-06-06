@@ -1,0 +1,70 @@
+<link href="css/styles.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.core.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.theme.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.button.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.accordion.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.dialog.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.resizable.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.progressbar.min.css" rel="stylesheet" type="text/css">
+<link href="jQueryAssets/jquery.ui.datepicker.min.css" rel="stylesheet" type="text/css">
+<script src="jQueryAssets/jquery-1.11.1.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.button.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.accordion.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.dialog.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.progressbar.min.js"></script>
+<script src="jQueryAssets/jquery.ui-1.10.4.datepicker.min.js"></script>
+<div class="page" data-page="nuevapartida">
+          //Aquí podemos agregar la barra superior
+          <div class="navbar">
+               <div class="navbar-inner">
+                 <div class="left"><a href="index.html"><img src="img/home.jpg" width="40" height="40" alt="TanteaPocha"/></a></div>
+                   <div class="center">Nueva Partida</div>
+			     <div class="right"></div>
+              </div>
+          </div>
+          <div class="page-content">
+	<form id="formulario" action="about.html" method="get">
+  <ul>
+	  <li>
+      <div class="item-content item-input">
+        <div class="item-inner">
+          <div class="item-title item-label">Jugadores</div>
+          <div class="item-input-wrap">
+            <select name="jugadores">
+              <option value="4" selected>4</option>
+              <option value="5">5</option>
+			  <option value="6">6</option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </li>     
+    <li>
+      <div class="item-content">
+        <div class="item-inner">
+          <div class="item-title">Bazas a jugar </div>
+          <div class="item-after">
+            <label class="toggle toggle-init">
+              <input type="checkbox" name="ascendente" value="yes">Ascendente<i class="toggle-icon"></i><br>
+				<input type="checkbox" name="descendente" value="yes">Descendente<i class="toggle-icon"></i><br>
+				<input type="checkbox" name="conpinte" value="yes">Con Pinte<i class="toggle-icon"></i><br>
+				<input type="checkbox" name="sinpinte" value="yes">Sin Pinte<i class="toggle-icon"></i><br>
+				<input type="checkbox" name="subasta" value="yes">Subasta<i class="toggle-icon"></i><br>
+				<input type="checkbox" name="manopinta" value="yes">Mano Pinta<i class="toggle-icon"></i><br>
+				<input type="checkbox" name="toggle" value="yes">Ascendente<i class="toggle-icon"></i><br>
+            </label>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+  <input type="button" value="Empezar">
+</form>
+  <div class="block block-strong row">
+  <div class="col"><a class="button convert-form-to-data" href="#">Siguiente</a></div>
+  <div class="col"><a class="button fill-form-from-data" href="#">Borrar datos</a></div>
+</div>
+	</div>
+</div>
+
+
